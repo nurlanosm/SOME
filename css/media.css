@@ -1,0 +1,151 @@
+/* МАЛЕНКИЕ МАНИТОРЫ */
+/* @media(max-width:1200px) {
+    .container {
+        max-width: 970px;
+    }
+} */
+
+/* Планшеты */
+/* @media(max-width:992px) {
+    .container {
+        max-width: 750px;
+        background: yellow;
+    }
+
+
+
+
+} */
+
+/* ьобильные устройства */
+@media(max-width:1200px) {
+    .header {
+        max-width: 970px;
+    }
+
+    .menu_item {
+        font-size: 30px;
+    }
+
+    .play {
+        left: 550px;
+        bottom: 290px;
+    }
+
+    .begining {
+        font-size: 40px;
+    }
+}
+
+/* @media(max-width:1200px) {
+    .question_block {
+        max-width: 970px;
+    }
+/* } */
+
+@media(max-width:992px) {
+    .play {
+        left: 440px;
+        bottom: 250px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .qr {
+        max-width: 100%;
+    }
+
+    .fh img {
+        display: flex;
+        justify-content: space-around;
+        max-width: 50%;
+
+    }
+
+    .ls h5 {
+        font-size: 30px;
+    }
+
+    .pr h6 {
+        font-size: 30px;
+    }
+
+    .ss h3 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:767px) {
+
+    .header_top {
+        display: block;
+    }
+
+    .header_top img {
+        margin-left: 300px;
+        margin-bottom: 30px;
+    }
+
+    .question_block {
+        display: block;
+    }
+
+    .quastion {
+
+        padding-top: 20px;
+    }
+
+    .quastion p {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 60px;
+        margin-top: 70px;
+    }
+
+    .play {
+        left: 350px;
+        bottom: 210px;
+    }
+
+    .picture_block {
+        display: none;
+    }
+
+    section #project {
+        margin-top: 10px;
+    }
+
+    .begining p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .qr img {
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        height: 200px;
+    }
+
+    .fh img {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        width: 100px;
+        height: 50px;
+    }
+
+    .line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+
+}
